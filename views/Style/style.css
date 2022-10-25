@@ -1,0 +1,277 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+body {
+    background: #80dff0 url('../img/bg.png') 20% 50px no-repeat;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+.main {
+    padding: 20px 0px 137px 0px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left_stack {
+    width: 300px;
+    background-color: rgb(131, 198, 224);
+    font-size: 20px;
+    height: 500px;
+    border-radius: 10px;
+
+
+
+}
+
+.left_stack li {
+
+    padding: 10px;
+    margin: 2px;
+}
+
+.body_content {
+    margin-left: 30px;
+
+}
+
+
+.avatar {
+
+    margin: 0 0 50px 5px;
+    padding-left: 30px;
+
+}
+
+.img {
+    border-radius: 10px;
+
+    max-width: 240px;
+    max-height: 320px;
+
+
+
+}
+
+.content {
+    margin: 5px;
+
+
+}
+
+
+textarea {
+
+    resize: vertical;
+    width: 800px;
+
+    padding: 5px;
+    min-height: 60px;
+
+    background-color: #aed8f0;
+    color: #3c3f41;
+    border-radius: 6px;
+    border: 5px solid transparent;
+}
+
+.add {
+    max-width: 900px;
+    position: relative;
+}
+
+.add-btn {
+    height: 30px;
+    width: 150px;
+    background-color: rgb(18, 221, 221);
+    margin: 5px;
+    position: absolute;
+    right: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.read_post {
+    max-width: 900px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    position: relative;
+    width: 800px;
+    padding: 5px 10px 5px 10px;
+}
+
+.post {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 100px;
+
+}
+
+.date {
+    position: relative;
+}
+
+.date_post {
+    font-size: 12px;
+    padding: 10px;
+    position: relative;
+    left: 80%;
+    /* bottom: 2px; */
+
+}
+
+.dell {
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    background-color: rgb(17, 99, 192);
+    position: absolute;
+    right: 5px;
+
+
+}
+
+/*  */
+.list_frend {
+    max-width: 900px;
+
+
+}
+
+.frend_list {
+    width: 800px;
+    background-color: #83c6e0;
+    border-radius: 10px;
+    padding: 5px 10px 25px 10px;
+    margin: 0 30px 80px 20px;
+    position: relative;
+    font-size: 20px;
+
+}
+
+.frend_list h1 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding-left: 35%;
+}
+
+.dell-frend {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(235, 94, 122);
+    position: absolute;
+    right: 5px;
+}
+
+#add-frend {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(61, 226, 135);
+    position: absolute;
+    right: 5px;
+}
+
+#all-frend {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(61, 226, 135);
+    position: absolute;
+    right: 5px;
+}
